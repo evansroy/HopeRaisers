@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif ;
 }
 
 body{
     padding: 2em;
-    background: #f5f4f4e9;
+    background: #fff;
 }
 
 header .top-header{
@@ -24,3 +25,62 @@ header .top-header .profile img{
     height: 3em;
     border-radius:50%;
 }
+nav {
+    color: #757474;
+    height: 7em;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-bottom: solid 0.1em #dddadae9; 
+  }
+  nav ul li a.active {
+    color: #F3F020;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  li {
+    margin-right: 1em;
+    position: relative;
+  }
+  
+  a {
+    color: #757474;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+    height: 100%;
+    line-height: 3em;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+    width: 10em;
+  }
+  
+  .dropdown-menu li a {
+    display: block;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+  }
+  
