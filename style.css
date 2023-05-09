@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    padding: 2em;
+    background: #f5f4f4e9;
+}
+
+header .top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10em 0 10em;
+    border-bottom: solid 0.1em #dddadae9; 
+}
+
+header .top-header .logo img{
+    width: 10em;
+}
+header .top-header .profile img{
+    width: 3em;
+    height: 3em;
+    border-radius:50%;
+}
