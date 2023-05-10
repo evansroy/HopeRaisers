@@ -309,7 +309,7 @@ a {
   margin-top: 1em;
 }
 
-.team .btn-team {
+.team .btn-team,.partners .btn-partner {
   width: 10em;
   display: flex;
   justify-content: center;
@@ -317,8 +317,23 @@ a {
   border-radius: .5em;
   margin: 3em;
 }
-.btn-team a {
+.btn-team a, .btn-partner a {
   color: #fff;
+}
+
+.partners{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6em 0 6em;
+  margin-top: 7em;
+}
+.partners h1{
+  margin-bottom: 2em;
+}
+.row .col-partner{
+  padding: 1em;
 }
 
 
