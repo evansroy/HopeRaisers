@@ -269,6 +269,9 @@ a {
 .team{
   margin-top: 6em;
 }
+.team h1{
+  margin-bottom: 4em;
+}
 .team-members {
   display: flex;
   flex-wrap: wrap;
