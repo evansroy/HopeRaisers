@@ -35,7 +35,7 @@ nav {
   border-bottom: solid 0.1em #dddadae9; 
 }
 nav ul li a.active {
-  color: #F3F020;
+  color: #FFD500;
 }
 
 ul {
@@ -133,14 +133,14 @@ a {
 }
 .programs h1{
  text-align: center;
- color: #F1B91A;
+ color: #FFD500;
  margin-bottom:3em ;
 }
 .programs-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0 10em 0 10em;
+  padding: 0 6em 0 6em;
 }
 
 .program-card {
@@ -178,7 +178,7 @@ a {
   text-align: center;
 }
 .program-details a{
-  color: #f8b90a;
+  color: #FFD500;
   font-weight: 600;
   text-align: center;
 }
@@ -211,6 +211,45 @@ a {
   .program-card {
     width: 100%;
   }
+}
+
+/* Our Values */
+.values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6em 0 6em;
+  margin-top: 7em;
+  /* background-color: #f5f5f5; */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.col {
+  width: calc(100% / 3 - 1em);
+  background-color: #fff;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.col img {
+  margin: 2em;
+}
+
+.col h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.col p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #666;
 }
 
 
