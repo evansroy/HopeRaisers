@@ -252,4 +252,52 @@ a {
   color: #666;
 }
 
+/* Team */
+.team{
+  margin-top: 6em;
+}
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team h1 {
+  text-align: center;
+  color: #FFD500;
+}
+.team-member {
+  width: 20%;
+  margin: 1em;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  /* border-radius: 50%; */
+}
+
+.team-member h3 {
+  margin: 0.5em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.team-member p{
+  color: #FFD500;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.social-links a {
+  margin: 0 0.5em;
+  font-size: 1.5em;
+  color: #555;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
 
