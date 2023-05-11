@@ -341,6 +341,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0 6em 0 6em;
+  margin-top: 6em;
 }
 
 .notify-desc p{
@@ -396,14 +397,26 @@ footer .about {
 .menu-footer .menu-row .menu-col ul{
   display: block;
   color: #a7a4a4;
+  font-size: .8em;
+
 }
 
 .menu-row .menu-col {
   padding: 3em;
 }
+.menu-row .menu-col h4{
+  font-size: .8em;
+}
 
 .menu-row .menu-col ul li {
   padding: .5em;
+}
+.footer-end{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+  color: #858383;
 }
 
 
