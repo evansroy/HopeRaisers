@@ -336,4 +336,42 @@ a {
   padding: 1em;
 }
 
+.notification{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6em 0 6em;
+}
+
+.notify-desc p{
+  color: #858383;
+  padding: 1em;
+  font-size: 1em;
+}
+
+.subscribe {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 6em 0 6em ;
+}
+.subscribe input{
+  height: 3em;
+  border-radius: .5em;
+}
+.email {
+  width: 100%;
+  border: .2em solid #a7a4a4;
+  margin: 1em;
+  padding: 1em;
+}
+
+#submit{
+  padding: 1em;
+  border-style: none;
+  background: #ffd817f1;
+  font-weight: 600;
+}
+
 
